@@ -12,7 +12,7 @@ public class Tasker
         listOfTasks.add(task);
     }
 
-    void deleteTask(String title)
+    public void deleteTask(String title)
     {
         for (Task task : listOfTasks)
         {
@@ -24,7 +24,7 @@ public class Tasker
         }
     }
 
-    void showTasks()
+    public void showTasks()
     {
         for (Task listOfTask : listOfTasks)
         {

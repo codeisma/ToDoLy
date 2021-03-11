@@ -5,6 +5,10 @@ public class Menu {
     private boolean loopIsTrue = true;
     private Tasker tasker = new Tasker();
 
+    public Menu()
+    {
+        this.displayUserMenu();
+    }
 
     public void displayUserMenu()
     {
