@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Menu {
     private Scanner input = new Scanner(System.in);
     private boolean loopIsTrue = true;
-    private Tasker tasker = new Tasker();
+    private Tasker tasker = Main.readAsData();
 
     public Menu()
     {
@@ -19,7 +19,7 @@ public class Menu {
             System.out.println("(1) Add New Task");
             System.out.println("(2) Show My List");
             System.out.println("(3) Edit Task (Delete) ");
-            System.out.println("(4) Exit");
+            System.out.println("(4) Save and Exit");
             String number = input.nextLine();
             getOptionsOfMenu(Integer.parseInt(number));
         }
@@ -66,8 +66,9 @@ public class Menu {
                     System.out.println("----------------");
                     break;
                 case 4:
-                    loopIsTrue = false;
-                    break;
+                    Main.writeAsData(tasker);
+                    input.close();
+                    System.exit(0);
 
             }
         }
