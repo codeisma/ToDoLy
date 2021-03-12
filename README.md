@@ -1,4 +1,5 @@
-#ToDoLy
+
+#ToDoLy#
 
 This is a "to do list" project via Terminal.
 
@@ -12,7 +13,7 @@ in this version allows to add task and delete task and show tasks.
 <img width="293" alt="Screenshot 2021-03-09 at 12 15 25" src="https://user-images.githubusercontent.com/78846716/110462928-9a4a1a80-80d1-11eb-920e-81adec807317.png">
 
 
-# Missing parts;
+## Missing parts; ##
 
 -edit task method.
 
