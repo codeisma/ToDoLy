@@ -1,3 +1,5 @@
+package com.SDAprojects.ToDoLy;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonReader;
@@ -20,7 +22,6 @@ public class Main {
             FileInputStream fileInputStream = new FileInputStream(file);
             InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
             JsonReader jsonReader = new JsonReader(inputStreamReader);
-
             tasker = gson.fromJson(jsonReader, Tasker.class);
         } catch (Exception e) {
             tasker = new Tasker();
@@ -41,4 +42,5 @@ public class Main {
         } catch (Exception e) {
         }
     }
+
 }
