@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Menu {
     private Scanner scanner = new Scanner(System.in);
     private boolean loopIsTrue = true;
-    private Tasker tasker = Main.readAsData();
+    private Tasker tasker = ReadAsData.readAsData();
+
 
     public Menu() {
         this.displayUserMenu();
@@ -15,9 +16,9 @@ public class Menu {
         while (loopIsTrue) {
             System.out.println("Welcome to ToDoLy");
             System.out.println("Pick an option:");
-            System.out.println("(1) Add New com.SDAprojects.ToDoLy.Main.Task");
+            System.out.println("(1) Add New Task");
             System.out.println("(2) Show My List");
-            System.out.println("(3) Edit com.SDAprojects.ToDoLy.Main.Task (Delete) ");
+            System.out.println("(3) Edit Task (Delete) ");
             System.out.println("(4) Save and Exit");
             String number = scanner.nextLine();
             getOptionsOfMenu(Integer.parseInt(number));
@@ -35,7 +36,7 @@ public class Menu {
                     tasker.createTask(new Task(title, date));
                     System.out.println("----------------");
                     System.out.println("----------------");
-                    System.out.println("com.SDAprojects.ToDoLy.Main.Task was added.");
+                    System.out.println("Task was added.");
                     System.out.println("----------------");
                     System.out.println("----------------");
                     break;
@@ -58,12 +59,12 @@ public class Menu {
                     tasker.deleteTask(taskName);
                     System.out.println("----------------");
                     System.out.println("----------------");
-                    System.out.println("com.SDAprojects.ToDoLy.Main.Task is deleted");
+                    System.out.println("Task is deleted");
                     System.out.println("----------------");
                     System.out.println("----------------");
                     break;
                 case 4:
-                    Main.writeAsData(tasker);
+                    WriteAsData.writeAsData(tasker);
                     scanner.close();
                     System.exit(0);
 
