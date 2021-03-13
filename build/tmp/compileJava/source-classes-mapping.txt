@@ -1,0 +1,12 @@
+com/SDAprojects/ToDoLy/Tasker.java
+ com.SDAprojects.ToDoLy.Tasker
+com/SDAprojects/ToDoLy/Task.java
+ com.SDAprojects.ToDoLy.Task
+com/SDAprojects/ToDoLy/WriteAsData.java
+ com.SDAprojects.ToDoLy.WriteAsData
+com/SDAprojects/ToDoLy/ReadAsData.java
+ com.SDAprojects.ToDoLy.ReadAsData
+com/SDAprojects/ToDoLy/Main.java
+ com.SDAprojects.ToDoLy.Main
+com/SDAprojects/ToDoLy/Menu.java
+ com.SDAprojects.ToDoLy.Menu
