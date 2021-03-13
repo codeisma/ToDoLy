@@ -27,24 +27,4 @@ public class ReadAsData {
 
         return tasker;
     }
-
-
-
-
-
-
-//    public static Tasker readAsData() {
-////        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-////        File file = new File("dataFile.txt");
-//        Tasker tasker;
-//
-//        try {
-//            FileInputStream fileInputStream = new FileInputStream("dataFile.txt");
-//            InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
-//        } catch (Exception e) {
-//            System.out.println("sdf");
-//        }
-//
-//        return tasker;
-//    }
 }

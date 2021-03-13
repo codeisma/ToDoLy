@@ -23,22 +23,4 @@ public class WriteAsData {
         } catch (Exception e) {
         }
     }
-
-
-
-
-
-
-//    public static void writeAsData(Tasker tasker) {
-////        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-////        File file = new File("dataFile.txt");
-////        String json = gson.toJson(tasker);
-//
-//        try {
-//            FileWriter fileWriter = new FileWriter("datafile.txt");
-//            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-//            bufferedWriter.close();
-//        } catch (Exception e) {
-//        }
-//    }
 }
