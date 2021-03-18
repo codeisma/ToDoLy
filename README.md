@@ -1,29 +1,39 @@
 
-#ToDoLy#
+# ToDoLy
 
-This is a "to do list" project via Terminal.
+This is a "to do list" project via Terminal. The application will allow a user to create
+new tasks, assign them a title and due date, and choose a project for that task to belong
+to. They will need to use a text based user interface via the command-line.Once they are using the application,
+the user should be able to also edit, mark as done or remove tasks. They can also quit
+and save the current task list to file, and then restart the application with the former
+state restored. 
 
-Complete version of this program will allow: Add tasks, Delete tasks, Update tasks, Mark as done, Sorting tasks. 
+## Main features:
+‣ Model a task with a task title, due date, status and project.
 
-Currently, This version does not have a save file. 
+‣ Display a collection of tasks that can be sorted both by date and project.
 
-For now it will be screened as below.
-in this version allows to add task and delete task and show tasks.
+‣ Support the ability to add, edit, mark as done, and remove tasks.
 
-<img width="293" alt="Screenshot 2021-03-09 at 12 15 25" src="https://user-images.githubusercontent.com/78846716/110462928-9a4a1a80-80d1-11eb-920e-81adec807317.png">
+‣ Support a text-based user interface.
 
+‣ Load and save task list to file.
 
-## Missing parts; ##
+## The user interface below:
 
--edit task method.
-
--sorting.
-
--saving to file.
-
-
-
-# Current Class diagram below:
+<img width="424" alt="Screenshot 2021-03-18 at 18 08 57" src="https://user-images.githubusercontent.com/78846716/111668424-06392b00-8816-11eb-8ea0-d6dedf8bdcc4.png">
 
 
-<img width="700" alt="Screenshot 2021-03-08 at 16 26 22" src="https://user-images.githubusercontent.com/78846716/110341941-2bb28180-802b-11eb-8f92-212fb0109d62.png">
+## Class Diagram below:
+
+<img width="552" alt="Screenshot 2021-03-18 at 18 12 46" src="https://user-images.githubusercontent.com/78846716/111669028-abec9a00-8816-11eb-8efb-cf2312ebd1fd.png">
+
+## Run program:
+
+```bash
+gradle build
+```
+
+```bash
+java -jar ToDoLy-1.0-SNAPSHOT.jar
+```
