@@ -9,11 +9,15 @@ and save the current task list to file, and then restart the application with th
 state restored. 
 
 ## Main features:
-‣ Model a task with a task title, due date, status and project
-‣ Display a collection of tasks that can be sorted both by date and project
-‣ Support the ability to add, edit, mark as done, and remove tasks
-‣ Support a text-based user interface
-‣ Load and save task list to file
+‣ Model a task with a task title, due date, status and project.
+
+‣ Display a collection of tasks that can be sorted both by date and project.
+
+‣ Support the ability to add, edit, mark as done, and remove tasks.
+
+‣ Support a text-based user interface.
+
+‣ Load and save task list to file.
 
 ## The user interface below:
 
