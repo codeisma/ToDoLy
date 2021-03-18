@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * This is Tasker class. A
+ * This is Tasker class.
  *
  * @author ismailcelik
  * @version 17.05.2021

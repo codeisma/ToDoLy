@@ -41,7 +41,7 @@ public class Menu {
             int DoneTasks = tasker.getDoneTasks();
             System.out.println();
             System.out.println("Welcome to ToDoLy!");
-            System.out.println("You have total " + totalTasks + " tasks and "+ DoneTasks + " of them is done!");
+            System.out.println("You have total " + totalTasks + " tasks and "+ DoneTasks + " of them are done!");
             System.out.println("");
             System.out.println("Pick an option->");
             System.out.println("(1) Show Task List (By date or project)");
@@ -58,7 +58,7 @@ public class Menu {
             switch (option) {
                 case 1:
                     if (tasker.isEmpty()) {
-                        System.out.println("No tasks to show");
+                        System.err.println("YOU DO NOT HAVE ANY TASK TO SHOW!");
                         break;
                     }
                     this.showAllToDoList();
