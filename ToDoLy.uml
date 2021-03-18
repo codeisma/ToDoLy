@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.SDAproject.ToDoLy</OriginalElement>
+  <nodes>
+    <node x="45.09166666666667" y="0.0">com.SDAproject.ToDoLy.Task</node>
+    <node x="63.47333333333333" y="667.0">com.SDAproject.ToDoLy.Menu</node>
+    <node x="50.748333333333335" y="541.0">com.SDAproject.ToDoLy.FileHandler</node>
+    <node x="106.02333333333333" y="1081.0">com.SDAproject.ToDoLy.Main</node>
+    <node x="0.0" y="238.0">com.SDAproject.ToDoLy.Tasker</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.SDAproject.ToDoLy.Menu" target="com.SDAproject.ToDoLy.Task">
+      <point x="95.19999999999999" y="-182.0" />
+      <point x="277.6733333333333" y="642.0" />
+      <point x="267.24833333333333" y="642.0" />
+      <point x="267.24833333333333" y="213.0" />
+      <point x="290.9666666666667" y="213.0" />
+      <point x="105.37500000000003" y="94.0" />
+    </edge>
+    <edge source="com.SDAproject.ToDoLy.Menu" target="com.SDAproject.ToDoLy.Tasker">
+      <point x="-95.19999999999996" y="-182.0" />
+      <point x="87.27333333333337" y="642.0" />
+      <point x="40.248333333333335" y="642.0" />
+      <point x="40.248333333333335" y="516.0" />
+      <point x="38.333333333333314" y="516.0" />
+      <point x="-76.66666666666669" y="126.5" />
+    </edge>
+    <edge source="com.SDAproject.ToDoLy.Menu" target="com.SDAproject.ToDoLy.FileHandler">
+      <point x="-47.599999999999966" y="-182.0" />
+      <point x="134.87333333333336" y="642.0" />
+      <point x="99.49833333333333" y="642.0" />
+      <point x="-48.75" y="38.0" />
+    </edge>
+    <edge source="com.SDAproject.ToDoLy.Main" target="com.SDAproject.ToDoLy.Menu">
+      <point x="-39.25" y="-27.0" />
+      <point x="145.2733333333333" y="1056.0" />
+      <point x="122.97333333333333" y="1056.0" />
+      <point x="-59.5" y="182.0" />
+    </edge>
+    <edge source="com.SDAproject.ToDoLy.FileHandler" target="com.SDAproject.ToDoLy.Tasker">
+      <point x="-48.75" y="-38.0" />
+      <point x="99.49833333333333" y="516.0" />
+      <point x="115.00000000000001" y="516.0" />
+      <point x="1.4210854715202004E-14" y="126.5" />
+    </edge>
+    <edge source="com.SDAproject.ToDoLy.Tasker" target="com.SDAproject.ToDoLy.Task">
+      <point x="-57.5" y="-126.5" />
+      <point x="57.5" y="213.0" />
+      <point x="80.21666666666667" y="213.0" />
+      <point x="-105.375" y="94.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5584415584415584" x="163.5" y="567.5" />
+  <SelectedNodes>
+    <node>com.SDAproject.ToDoLy.Tasker</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
